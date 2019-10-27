@@ -26,7 +26,9 @@ dependencies {
 This plugin provides three gradle target:
 
 |-- hbm2dao: for generate DAO classes
+
   |-- hbm2java: for generate Hibernate Entity classes
+  
     |-- hibernate-config: for generate hibernate.cfg.xml & hibernate.reveng.xml 
 
 
