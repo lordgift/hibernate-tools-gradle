@@ -42,3 +42,7 @@ database {
 ```
 
 all generated files should appear in build/generated/src
+
+
+official plugin site.
+https://plugins.gradle.org/plugin/org.hibernate.gradle.tools
