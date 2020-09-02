@@ -19,7 +19,7 @@ add dependency for Database Driver (here is MySQL)
 
 ```kotlin
 dependencies {
-    compile("mysql:mysql-connector-java:8.0.15")
+    implementation("mysql:mysql-connector-java:8.0.15")
 }
 ```
 
@@ -46,3 +46,8 @@ all generated files should appear in build/generated/src
 
 official plugin site.
 https://plugins.gradle.org/plugin/org.hibernate.gradle.tools
+
+
+
+### IF JAVA_HOME configured with later than JDK 11+ (no longer included Java EE), please specify to JDK 8 (including Java EE)
+JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/" ./gradlew :hibernate-tool:hbm2java
