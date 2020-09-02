@@ -49,5 +49,7 @@ https://plugins.gradle.org/plugin/org.hibernate.gradle.tools
 
 
 
+
+
 ### IF JAVA_HOME configured with later than JDK 11+ (no longer included Java EE), please specify to JDK 8 (including Java EE)
 JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/" ./gradlew :hibernate-tool:hbm2java
